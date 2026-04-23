@@ -1,0 +1,25 @@
+# Backups
+*-backups/
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Autosave
+_autosave-*
+*.lck
+
+# Generated output
+/gerbers/
+/production/
+*.drl
+*.gbr
+*.pos
+
+# Fab files (unless you want to version them)
+*.zip
+
+# Net classes/report files
+*.net
+*.xml
+
+.history
