@@ -17,29 +17,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -17.78 31.75 0)
+			(property "Reference" "J1"
+				(at 2.1433 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "Raspberry_Pi_2_3"
-				(at 10.16 -31.75 0)
+				(at 2.1433 -35.56 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -108,7 +108,7 @@
 				)
 			)
 			(symbol "Raspberry_Pi_2_3_1_1"
-				(pin power_in line
+				(pin power_out line
 					(at 5.08 33.02 270)
 					(length 2.54)
 					(name "3V3"
@@ -126,7 +126,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -5.08 33.02 270)
 					(length 2.54)
 					(name "5V"
@@ -199,7 +199,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -33.02 90)
 					(length 2.54)
 					(name "GND"
@@ -1046,6 +1046,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "beerpimax:adafruit-max-31865"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1525,6 +1744,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RPI Connector"
+		(exclude_from_sim no)
+		(at 68.072 115.316 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "1438882d-211c-48c4-9c38-7f9bd073c03c")
+	)
+	(text "MAX31865 RTC probe drivers"
+		(exclude_from_sim no)
+		(at 138.684 105.156 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "8956731a-f819-48b8-bb19-3a669e49cfa0")
+	)
+	(text "AC SSR Terminal"
+		(exclude_from_sim no)
+		(at 37.084 74.93 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "b71244f5-4bd7-44dd-b222-2985246e2ece")
+	)
 	(junction
 		(at 110.49 87.63)
 		(diameter 0)
@@ -1538,14 +1787,28 @@
 		(uuid "37113714-f670-412d-a557-e03843e1ed44")
 	)
 	(junction
+		(at 34.29 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd9dd934-ff26-44fc-841d-fa89ab45e18d")
+	)
+	(junction
+		(at 24.13 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7270fdb-832a-4470-a6ae-cdea2a94759d")
+	)
+	(junction
+		(at 44.45 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5942e61-ee06-4dcb-a575-d44ed3d84e99")
+	)
+	(junction
 		(at 111.76 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0a6ff45-2dab-4946-a4bc-ddb2a99171e8")
-	)
-	(no_connect
-		(at 63.5 85.09)
-		(uuid "00ec7499-8e89-4dbc-b5f5-b9f549ecd8bd")
 	)
 	(no_connect
 		(at 63.5 67.31)
@@ -1570,6 +1833,10 @@
 	(no_connect
 		(at 104.14 72.39)
 		(uuid "4e4be650-5945-430a-ae45-5b5b4319009c")
+	)
+	(no_connect
+		(at 104.14 82.55)
+		(uuid "5a26194c-4a88-4030-a9c2-d9e616da72fa")
 	)
 	(no_connect
 		(at 104.14 59.69)
@@ -1616,6 +1883,10 @@
 		(uuid "c3834a5c-ad74-43e3-974b-f16172fbcc63")
 	)
 	(no_connect
+		(at 104.14 85.09)
+		(uuid "c3974eb2-6ca5-4f6c-b3e4-df2712c69a4c")
+	)
+	(no_connect
 		(at 63.5 74.93)
 		(uuid "cb50c0fe-0eb6-4693-a02d-78faa171f8bc")
 	)
@@ -1630,10 +1901,6 @@
 	(no_connect
 		(at 104.14 67.31)
 		(uuid "d38e6337-136e-4915-8714-9dbcd07a824a")
-	)
-	(no_connect
-		(at 63.5 97.79)
-		(uuid "d9c5c1f6-a571-4f74-b19c-83a1a9908561")
 	)
 	(no_connect
 		(at 78.74 46.99)
@@ -1673,6 +1940,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 123.19) (xy 50.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9cc603-8ba5-4738-bb21-19ee1d5dc7df")
+	)
+	(wire
+		(pts
 			(xy 41.91 67.31) (xy 44.45 67.31)
 		)
 		(stroke
@@ -1683,13 +1960,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 82.55) (xy 107.95 82.55)
+			(xy 128.27 53.34) (xy 107.95 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c42d31e-1e8c-4010-a36b-035bb8dd9a15")
+		(uuid "1dda54d2-f1d9-460c-864c-b90ba0f24673")
 	)
 	(wire
 		(pts
@@ -1723,6 +2000,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 53.34) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e562215-7922-4e40-aa25-73ddccefceaf")
+	)
+	(wire
+		(pts
 			(xy 88.9 44.45) (xy 88.9 46.99)
 		)
 		(stroke
@@ -1733,23 +2020,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 109.22 82.55)
+			(xy 110.49 58.42) (xy 128.27 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "353819b0-acd0-444b-9059-4b96946d3e86")
+		(uuid "3c468e5c-fbc5-4604-92c7-770fed2e5070")
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 109.22 85.09)
+			(xy 128.27 82.55) (xy 114.3 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40cbacc2-0cbc-4fc4-8f65-013623a10225")
+		(uuid "466dd55c-2cbc-4618-b48e-e7c65d4f49cd")
 	)
 	(wire
 		(pts
@@ -1760,6 +2047,16 @@
 			(type default)
 		)
 		(uuid "49bf6aaf-5e9b-4369-9791-dac156658f8a")
+	)
+	(wire
+		(pts
+			(xy 54.61 137.16) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7ad0f6-73b7-44c4-a5e7-9a66689eb559")
 	)
 	(wire
 		(pts
@@ -1793,13 +2090,43 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 53.34) (xy 128.27 53.34)
+			(xy 19.05 85.09) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89bbb78b-eda2-4869-a0dc-ca6a92d24b93")
+		(uuid "736d2d1a-6ffa-4e6a-b165-da0ea19a1223")
+	)
+	(wire
+		(pts
+			(xy 44.45 138.43) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a1d06d-f622-4858-b48b-6a6c79d7ef7a")
+	)
+	(wire
+		(pts
+			(xy 54.61 138.43) (xy 44.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9193a85d-6e29-448f-bee8-8aa80f8ac444")
+	)
+	(wire
+		(pts
+			(xy 24.13 138.43) (xy 24.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946c750d-8d45-4bb2-a2cd-b722073ae267")
 	)
 	(wire
 		(pts
@@ -1823,6 +2150,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 123.19) (xy 50.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d64d8e-726b-41d9-b550-9945f9cbf82c")
+	)
+	(wire
+		(pts
 			(xy 113.03 60.96) (xy 128.27 60.96)
 		)
 		(stroke
@@ -1833,13 +2170,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 58.42) (xy 110.49 58.42)
+			(xy 34.29 137.16) (xy 34.29 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae254c0f-1779-419b-b144-31331643abba")
+		(uuid "b519a8ff-b6cc-4fcf-be01-4e4e03982792")
+	)
+	(wire
+		(pts
+			(xy 50.8 97.79) (xy 63.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd734b38-95db-4623-a8a1-ac7deee6590d")
 	)
 	(wire
 		(pts
@@ -1860,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "cdf92956-263f-4ff9-907c-0fb43e779107")
+	)
+	(wire
+		(pts
+			(xy 24.13 138.43) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d642fc72-ae69-4c14-97b9-1cec7f46f4d6")
 	)
 	(wire
 		(pts
@@ -1893,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 36.83) (xy 19.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead31768-2590-4e70-bd4f-058537083bba")
+	)
+	(wire
+		(pts
 			(xy 111.76 55.88) (xy 111.76 85.09)
 		)
 		(stroke
@@ -1903,13 +2270,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 107.95 53.34)
+			(xy 19.05 36.83) (xy 19.05 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f12d7fb3-4be7-49c7-abe9-8449ee102cee")
+		(uuid "ed0e150e-4849-4613-b08c-908300c57164")
 	)
 	(wire
 		(pts
@@ -1923,16 +2290,36 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 82.55) (xy 128.27 82.55)
+			(xy 44.45 137.16) (xy 44.45 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffc6dea9-4bfb-49d1-922e-466cb6b45f23")
+		(uuid "f99e7a13-4c95-4388-a848-f2c51c5c267a")
 	)
-	(label "MOSI"
-		(at 120.65 55.88 0)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f8c0c1-48dd-4af1-80d5-035ca0fc21a1")
+	)
+	(wire
+		(pts
+			(xy 24.13 137.16) (xy 24.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7e7a7f-5c4c-4fa6-9d93-95e1e851319a")
+	)
+	(label "SPIMOSI"
+		(at 116.84 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,8 +2328,18 @@
 		)
 		(uuid "02fd5c5b-0967-4ffb-89c7-09ad3100b0a9")
 	)
-	(label "GPIO7"
-		(at 120.65 53.34 0)
+	(label "SSRGPIO18"
+		(at 48.26 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10c54ba4-6b10-47c8-82e5-6de38abcd986")
+	)
+	(label "SPIGPIO7"
+		(at 116.84 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1951,8 +2348,8 @@
 		)
 		(uuid "377abe85-2cf0-4bbb-9506-6427c4c7725c")
 	)
-	(label "MISO"
-		(at 120.65 58.42 0)
+	(label "SPIMISO"
+		(at 116.84 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,8 +2358,9 @@
 		)
 		(uuid "53bbed44-f87d-4507-b235-6ab439965d53")
 	)
-	(label "SCLK"
-		(at 120.65 90.17 0)
+	(label "SPISCLK"
+		(at 116.84 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1970,9 +2368,21 @@
 			(justify left bottom)
 		)
 		(uuid "56d10519-80e1-4bbe-b26f-3b1742d3b133")
+		(property "Net Class" ""
+			(at 116.84 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(label "MOSI"
-		(at 120.65 85.09 0)
+	(label "SPIMOSI"
+		(at 116.84 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1981,8 +2391,8 @@
 		)
 		(uuid "8465c15a-e63a-41f3-929a-2161ba41c7eb")
 	)
-	(label "MISO"
-		(at 120.65 87.63 0)
+	(label "SPIMISO"
+		(at 116.84 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,8 +2401,8 @@
 		)
 		(uuid "8a7f62e8-cf39-4df8-b8b3-c15ae53b7fb1")
 	)
-	(label "SCLK"
-		(at 120.65 60.96 0)
+	(label "SPISCLK"
+		(at 116.84 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,8 +2411,8 @@
 		)
 		(uuid "bcc9816e-f8d9-41ac-b6ea-1f20fdfaf4e4")
 	)
-	(label "GPIO8"
-		(at 120.65 82.55 0)
+	(label "SPIGPIO8"
+		(at 116.84 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2017,7 +2427,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2118,13 +2528,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27349da7-a67d-48ad-920b-dc0195935b7f")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 85.9633 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2302,7 +2712,7 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2388,6 +2798,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 80.01 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38497558-09e1-45c8-bfac-ac9ea268775f")
+		(property "Reference" "FID2"
+			(at 82.55 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 82.55 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 80.01 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 88.9 44.45 0)
 		(unit 1)
@@ -2399,7 +2885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2b0e9a-97a0-4861-b0cc-c2afa84d8e95")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 88.9 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2459,7 +2945,7 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2475,9 +2961,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66d9986d-cc44-47cb-a776-37ab38e76161")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 50.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2489,7 +2974,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 67.3099 90)
+			(at 46.99 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2538,7 +3023,86 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "#PWR07")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "688feb6d-af81-44d6-9e1d-9879b398a5cd")
+		(property "Reference" "MH2"
+			(at 36.83 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 36.83 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 34.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bdeed11-3176-4ee3-ba64-3d10b4c1e4dc")
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "MH2")
 					(unit 1)
 				)
 			)
@@ -2556,7 +3120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774b080c-4bdf-42b2-b6d3-009e564904f7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 129.54 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2617,7 +3181,7 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2629,13 +3193,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81dd0eb7-f2f6-42a7-8931-fd2d766f5fea")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 36.83 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,7 +3261,86 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "J2")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 24.13 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ea06fa-5614-4644-97ac-2fe2c2fe8f59")
+		(property "Reference" "MH1"
+			(at 26.67 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 26.67 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 24.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 24.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a773605-a5eb-4a32-adf2-05c5db8dfa15")
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "MH1")
 					(unit 1)
 				)
 			)
@@ -2709,7 +3352,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2805,6 +3448,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 92.71 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c49b8d0-5657-4bb0-a7eb-4c6c6d23c68d")
+		(property "Reference" "FID3"
+			(at 95.25 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 95.25 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 92.71 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 66.04 270)
 		(unit 1)
@@ -2816,7 +3535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a04aefc4-94ee-4e2b-8717-b9db0d2c48c0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2877,7 +3596,7 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2895,7 +3614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76e5344-7f84-48dc-8a29-86a0418540f3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2955,7 +3674,86 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "#PWR01")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 54.61 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a829f751-5098-436d-a627-eac7fcbd7b95")
+		(property "Reference" "MH4"
+			(at 57.15 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 57.15 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 54.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 54.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc9fc84c-dc24-4012-b2ce-e31dfea50d00")
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -2973,7 +3771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae40ea7a-056e-4a27-addc-8b4a5342c1c4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 129.54 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3034,7 +3832,240 @@
 		(instances
 			(project "beerpimax"
 				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
-					(reference "#PWR04")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d224b9ba-96c2-44bd-8e41-dfbd7a4c9b57")
+		(property "Reference" "#PWR08"
+			(at 24.13 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "230b5b37-1cce-4f28-bc20-973085e417fc")
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 67.31 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1be746b-d32f-41c1-a065-82231108ece9")
+		(property "Reference" "FID1"
+			(at 69.85 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 69.85 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 67.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 67.31 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7a4f79d-80fc-4ea6-a689-14d97c9628a9")
+		(property "Reference" "MH3"
+			(at 46.99 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 46.99 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 44.45 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bbabe69-2a9b-43e2-a884-467e4737ee9f")
+		)
+		(instances
+			(project "beerpimax"
+				(path "/431dc4bf-98be-45b0-a469-e84ec3e6683f"
+					(reference "MH3")
 					(unit 1)
 				)
 			)
